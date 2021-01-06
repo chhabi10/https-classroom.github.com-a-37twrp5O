@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/myToolbar"
+    android:title="">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/instagram"
+            android:textAlignment="viewStart"
+            android:gravity="start" />
+
+        <ImageView
+            android:id="@+id/imgHeart"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toStartOf="@id/imgMessage"
+            android:src="@drawable/heart"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/imgMessage" />
+
+        <ImageView
+            android:id="@+id/imgMessage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/messenger"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp" />
+    </RelativeLayout>
+
+
+
+</Toolbar>
